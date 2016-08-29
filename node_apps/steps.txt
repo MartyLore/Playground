@@ -1,0 +1,9 @@
+# commands executed to produce initial node express app skeleton
+
+1. [sudo] npm install express-generator -g
+    - install express-generator module to generate an express application skeleton
+2. [sudo] express -e myapp
+    - generate express application skeleton
+    - option (-e) used to include ejs- instead of jade-engine support
+3. [sudo] npm install -g nodemon
+    - install monitor to automate reload after code changes
